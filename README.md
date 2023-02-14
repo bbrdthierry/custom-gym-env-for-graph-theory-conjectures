@@ -7,7 +7,7 @@ https://en.wikipedia.org/wiki/Conway%27s_99-graph_problem
 Inspired by the demo code associated with "Constructions in combinatorics via neural networks" by A Z Wagner paper:
 https://arxiv.org/abs/2104.14516
 
-Link to the repository's paper, by A Z Wagner:
+Repository's paper, by A Z Wagner:
 https://github.com/zawagner22/cross-entropy-for-combinatorics
 
 ### Software requirements
