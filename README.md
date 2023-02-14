@@ -22,7 +22,7 @@ Python and minor packages are also available in requirements.txt, which can be u
 
 ### Demos
 
-The custom OpenAI Gym Environment is developed in the **cge-custom_env.py** file. In this file, the conjecture is represented by the *custom reward function*: only modify this one when you want to find another counter exemple to a conjecture. By default, this reward function is designed to represent a tree graph.
+The custom OpenAI Gym Environment is developed inside the **cge-custom_env.py** file. In this file, the conjecture is represented by the *custom reward function*: only modify this one when you want to find another counter exemple to a conjecture. By default, this reward function is designed to represent a tree graph.
 
 **cge-model.py** file contains the reinforcement learning model based on Stable Baseline API. Check their RL model list in https://stable-baselines.readthedocs.io/en/master/guide/algos.html. Using Stable Baseline API allows us to easily find the best RL model that matches the best a conjecture problem. When you have found the right model, feel free to reimplement it with this custom Gym environment without Stable-Baseline to get more model tuning solutions!
 
