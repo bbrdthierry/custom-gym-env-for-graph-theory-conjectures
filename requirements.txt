@@ -1,0 +1,10 @@
+scipy
+pandas
+numpy
+matplotlib
+networkx
+scikit-learn
+tensorflow==1.14.0
+keras==2.3.1
+gym==0.21.0
+stable-baselines[mpi]==2.10.0
