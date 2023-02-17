@@ -10,7 +10,7 @@ https://arxiv.org/abs/2104.14516
 Repository's paper, by A Z Wagner:
 https://github.com/zawagner22/cross-entropy-for-combinatorics
 
-### Software requirements
+## Software requirements
 
 - Python version 3.6.3
 - Tensorflow version 1.14.0
@@ -20,7 +20,7 @@ https://github.com/zawagner22/cross-entropy-for-combinatorics
 
 Python and minor packages are also available in requirements.txt, which can be used when creating a Python/Conda virtual environment.
 
-### Demos
+## Demos
 
 The custom OpenAI Gym Environment is developed inside the **cge-custom_env.py** file. In this file, the conjecture is represented by the *custom reward function*: only modify this one when you want to find another counter exemple to a conjecture. By default, this reward function is designed to represent a tree graph.
 
@@ -30,12 +30,12 @@ The custom OpenAI Gym Environment is developed inside the **cge-custom_env.py** 
 
 **cge-check_env.py** file is designed to check the compatibility between Gym environment and Stable Baseline, as the RL environment is a custom one. *Not needed to find counter examples*.
 
-### Installation and usage
+## Installation and usage
 
 Install the right versions of modules cited in **Software Requirements** section.
 The main files are **cge-model.py** and **cge-custom_env.py**. Inside **cge_model.py**, change the argument `N_vertices` value by the number of vertices that you want, by default it is set on 17. Next in **cge-custom_env.py** file, change the reward function that suits your problem under the `custom_reward` function. The input to this function is a networkx graph object, which is automatically designed when specifying the number of vertices in **cge_model.py**. Then, run the program simply with the `python cge-model.py` command.
 
-### Output
+## Output
 
 During runtime, the program will display the scores of the best constructions in the current iteration.
 
